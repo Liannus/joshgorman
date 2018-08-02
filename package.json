@@ -1,0 +1,27 @@
+{
+  "name": "Liannus.github.io2",
+  "version": "1.0.0",
+  "description": "A reworking of my personal website using Next.js as a static website generator, Bootstrap for CSS and ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liannus/Liannus.github.io2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liannus/Liannus.github.io2/issues"
+  },
+  "homepage": "https://github.com/Liannus/Liannus.github.io2#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "reactstrap": "^6.3.1"
+  }
+}
