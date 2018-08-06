@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import MainNavbar from './partials/MainNavbar'
 
 const linkStyle = {
 	marginRight: 15
@@ -6,10 +7,7 @@ const linkStyle = {
 
 const Header = () => (
 	<div>
-		<Link href="/">
-			<a style={linkStyle}>Home</a>
-			<a style={linkStyle}>About</a>
-		</Link>
+		<MainNavbar />
 	</div>
 )
 

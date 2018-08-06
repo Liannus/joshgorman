@@ -1,4 +1,4 @@
-import Layout from '../components/Layout.js'
+import Layout from '../components/Layout'
 import { Container, Row, Col } from 'reactstrap';
 
 export default () => (
