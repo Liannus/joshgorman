@@ -42,16 +42,29 @@ import { Collapse,
             </Collapse>
           </Navbar>
           <style jsx global>{`
+            @keyframes fadein {
+              from { opacity: 0; }
+              to   { opacity: 1; }
+            }
             .navbar {
-              transition: height 2s;
-              height: 50px;
-              background-color: #ffbbbc;
+              background-color: white;
+            }
+            .navbar .navbar-toggler {
+
+            }
+            .navbar-toggler:hover {
+              color: red;
+              background-color: #efefef;
+            }
+            .navbar .navbar-toggler .icon-bar {
+              background-color: red;
+              color: red;
             }
             .navbar .navbar-nav {
-              background-color: #ffbbbc;
+              background-color: white;
             }
             .navbar .navbar-nav .nav-link {
-              color: #ecf0f1;
+              color: grey;
               border-radius: .25rem;
               margin: 0 0.25em;
               text-align: center;
@@ -60,33 +73,15 @@ import { Collapse,
             .navbar .navbar-nav .nav-link:not(.disabled):focus {
               color: #ffbbbc;
             }
-
-            @media (min-width: 575px) {
-              .navbar {
-                -webkit-transition: height 2s;
-                transition: height 2s;
-                height: 50px;
+            @media (max-width: 576px) {
+              .navbar .navbar-toggler {
+                animation: fadein 1s;
               }
             }
-
-            @media (min-width: 767px) {
-              .navbar {
-                -webkit-transition: height 2s;
-                transition: height 2s;
-                height: 90px;
+            @media (min-width: 576px) {
+              .navbar .navbar-nav .nav-link {
+                animation: fadein 1s;
               }
-            }
-
-            @media (min-width: 991px) {
-              .navbar {
-                -webkit-transition: height 2s;
-                transition: height 2s;
-                height: 50px;
-              }
-            }
-
-            @media (min-width: 1199px) {
-
             }
           `}</style>
         </div>
