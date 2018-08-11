@@ -71,7 +71,7 @@ import { Collapse,
             }
             .navbar .navbar-nav .nav-link:not(.disabled):hover,
             .navbar .navbar-nav .nav-link:not(.disabled):focus {
-              color: #ffbbbc;
+              color: #bcbcbc;
             }
             @media (max-width: 576px) {
               .navbar .navbar-toggler {
