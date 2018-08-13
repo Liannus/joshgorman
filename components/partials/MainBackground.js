@@ -1,11 +1,10 @@
 import React from 'react';
-import { Collapse } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 export default class MainBackground extends React.Component {
   constructor(props) {
     super(props);
 
-    this.toggleNavbar = this.toggleNavbar.bind(this);
     this.state = {
       collapsed: true
     };
@@ -13,9 +12,11 @@ export default class MainBackground extends React.Component {
 
   render() {
     return (
-      <div>
-
-      </div>
+        <Row style={{ "background-color" : "red"}}>
+          <Col sm="12" style={{ "height": "98vh"}}>
+            <p>hello</p>
+          </Col>
+        </Row>
     );
   }
 }
