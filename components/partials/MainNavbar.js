@@ -47,10 +47,13 @@ import { Collapse,
               to   { opacity: 1; }
             }
             .navbar {
-              background-color: white;
+              background-color: transparent;
+              position: absolute;
+              width: 100%;
+              z-index: 1;
             }
             .navbar .navbar-toggler {
-
+                background-color: white;
             }
             .navbar-toggler:hover {
               color: red;
@@ -61,7 +64,7 @@ import { Collapse,
               color: red;
             }
             .navbar .navbar-nav {
-              background-color: white;
+              background-color: transparent;
             }
             .navbar .navbar-nav .nav-link {
               color: grey;
