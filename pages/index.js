@@ -1,9 +1,9 @@
 import Layout from '../components/Layout'
-import MainBackground from '../components/partials/MainBackground.js'
+import IndexComponent from '../components/IndexComponent.js'
 import { Container, Row, Col } from 'reactstrap';
 
 export default () => (
 	<Layout>
-		<MainBackground />
+		<IndexComponent />
 	</Layout>
 )
