@@ -19,10 +19,6 @@ export default class IndexComponent extends React.Component {
             <p>hello</p>
           </Col>
         </Row>
-        <style jsx>{`
-          * {
-          }
-        `}</style>
       </div>
     );
   }
