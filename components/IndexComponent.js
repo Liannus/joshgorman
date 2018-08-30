@@ -18,6 +18,8 @@ export default class IndexComponent extends React.Component {
           <Col className="dd" sm="12">
             <p>hello</p>
           </Col>
+          <footer>
+          </footer>
         </Row>
       </div>
     );

@@ -10,7 +10,6 @@ export default class HexCanvas extends React.Component {
   constructor(props) {
     super(props);
 
-
   }
 
   componentDidMount() {
