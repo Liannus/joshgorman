@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import HexCanvas from './partials/HexCanvas.js'
 import '../style.css'
+import ForestFire from 'forestfiresim/dist/bundle.js';
 
 export default class IndexComponent extends React.Component {
   constructor(props) {
@@ -11,9 +12,10 @@ export default class IndexComponent extends React.Component {
   render() {
     return (
       <div>
-        <Row style={{ "background-color": "white"}}>
-          <Col className="dd" sm="12">
-            <HexCanvas />
+        <Row>
+          <Col style={{ "background-color": "black"}} className="dd" sm="12">
+            <h1>hello</h1>
+            <ForestFire />
           </Col>
           <Col className="dd" sm="12">
             <p>hello</p>

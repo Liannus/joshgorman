@@ -2,7 +2,6 @@
 
 .dd {
   color: red;
-  background-color: red;
   height: 50vh;
 }
 // Extra small devices (portrait phones, less than 576px)
@@ -11,7 +10,6 @@
 @media (min-width: 576px) {
   .dd {
     color: red;
-    background-color: red;
     height: 50vh;
   }
 }
@@ -19,7 +17,6 @@
 @media (min-width: 768px) {
   .dd {
     color: green;
-    background-color: green;
     height: 100vh;
   }
 }
@@ -27,13 +24,11 @@
 @media (min-width: 992px) {
   .dd {
     color: yellow;
-    background-color: yellow;
   }
 }
 
 @media (min-width: 1200px) {
   .dd {
     color: blue;
-    background-color: blue;
   }
 }
