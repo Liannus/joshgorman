@@ -7,6 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next"
   },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "reactstrap": "^6.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Liannus/Liannus.github.io2.git"
@@ -17,13 +24,5 @@
   "bugs": {
     "url": "https://github.com/Liannus/Liannus.github.io2/issues"
   },
-  "homepage": "https://github.com/Liannus/Liannus.github.io2#readme",
-  "dependencies": {
-    "@zeit/next-css": "^0.2.0",
-    "next": "^6.1.1",
-    "forestfiresim": "^1.0.10",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "reactstrap": "^6.3.1"
-  }
+  "homepage": "https://github.com/Liannus/Liannus.github.io2#readme"
 }
