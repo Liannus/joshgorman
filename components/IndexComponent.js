@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import HexCanvas from './partials/HexCanvas.js'
 import '../style.css'
-import ForestFire from 'forestfiresim/dist/bundle.js';
+import ForestFire from 'forestfiresim';
 
 export default class IndexComponent extends React.Component {
   constructor(props) {
