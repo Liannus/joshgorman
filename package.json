@@ -12,7 +12,8 @@
     "next": "^7.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "reactstrap": "^6.5.0"
+    "reactstrap": "^6.5.0",
+    "video.js": "^7.3.0"
   },
   "repository": {
     "type": "git",

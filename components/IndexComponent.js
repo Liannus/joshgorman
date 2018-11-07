@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import HexCanvas from './partials/HexCanvas.js'
+import BackgroundVideo from './partials/BackgroundVideo.js'
 import '../style.css'
 import ForestFire from 'forestfiresim';
 
@@ -18,7 +18,7 @@ export default class IndexComponent extends React.Component {
             <ForestFire />
           </Col>
           <Col className="dd" sm="12">
-            <p>hello</p>
+            <BackgroundVideo />
           </Col>
           <footer>
           </footer>
