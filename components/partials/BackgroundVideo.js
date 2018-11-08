@@ -10,9 +10,9 @@ export default class backgroundVideo extends React.Component {
   render() {
     return (
       <>
-        <video id="my-video" class="video-js" controls preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+        <video id="my-video" class="video-js" controls loop muted autoPlay preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
             <source src="/static/Timelapse.mp4" type='video/mp4'></source>
-            <p class="vjs-no-js">
+            <p className="vjs-no-js">
               To view this video please enable JavaScript, and consider upgrading to a web browser that
               <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
             </p>
