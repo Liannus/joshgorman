@@ -1,9 +1,11 @@
 import React from 'react';
 
-const percentSizing = {
-  height: '100%',
-  width: '100%',
-  padding: '15px'
+const centerDiv = {
+  position: 'absolute',
+  "z-index": '1',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)'
 };
 
 export default class MainHeading extends React.Component {
@@ -13,12 +15,20 @@ export default class MainHeading extends React.Component {
 
   render() {
     return (
-      <>
-        <h1 style={{
-          "margin": "auto",
-          "position": "absolute"
-        }}>Josh</h1>
-      </>
+      <div style={centerDiv}>
+        <h1>Web Developer</h1>
+        <h2>Josh Gorman</h2>
+        <style jsx>{`
+          h1 {
+            color: white;
+            font-size: 4em;
+          }
+          h2 {
+            color: white;
+            font-size: 2em;
+          }
+        `}</style>
+      </div>
     );
   }
 }

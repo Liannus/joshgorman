@@ -1,4 +1,7 @@
 /* Stylesheet used to provide media query CSS to reactstrap compontents */
+* {
+  font-family: 'Istok Web', sans-serif;
+}
 
 .dd {
   color: red;

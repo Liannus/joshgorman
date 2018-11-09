@@ -27,7 +27,7 @@ import { Collapse,
         <div>
           <Navbar light expand="sm">
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-            <Collapse className="justify-content-center dark" isOpen={!this.state.collapsed} navbar>
+            <Collapse className="justify-content-right dark" isOpen={!this.state.collapsed} navbar>
               <Nav navbar>
                 <NavItem>
                   <NavLink href="/components/">Components</NavLink>
@@ -53,7 +53,7 @@ import { Collapse,
               z-index: 1;
             }
             .navbar .navbar-toggler {
-                background-color: white;
+                background-color: transparent;
             }
             .navbar-toggler:hover {
               color: red;
@@ -67,7 +67,7 @@ import { Collapse,
               background-color: transparent;
             }
             .navbar .navbar-nav .nav-link {
-              color: grey;
+              color: white;
               border-radius: .25rem;
               margin: 0 0.25em;
               text-align: center;
