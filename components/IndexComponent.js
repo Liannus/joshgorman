@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap';
 import BackgroundVideo from './partials/BackgroundVideo.js'
 import '../style.css'
 import ForestFire from 'forestfiresim';
+import MainHeading from './partials/MainHeading.js'
 
 export default class IndexComponent extends React.Component {
   constructor(props) {
@@ -13,12 +14,12 @@ export default class IndexComponent extends React.Component {
     return (
       <div>
         <Row>
-          <Col style={{ "background-color": "black"}} className="dd" sm="12">
-            <h1>hello</h1>
-            <ForestFire />
+          <Col className="dd" sm="12">
+            <MainHeading />
+            <BackgroundVideo />
           </Col>
           <Col className="dd" sm="12">
-            <BackgroundVideo />
+            <ForestFire />
           </Col>
           <footer>
           </footer>
