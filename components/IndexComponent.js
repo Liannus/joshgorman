@@ -4,6 +4,7 @@ import BackgroundVideo from './partials/BackgroundVideo.js'
 import '../style.css'
 import ForestFire from 'forestfiresim';
 import MainHeading from './partials/MainHeading.js'
+import Projects from './partials/Projects.js'
 
 export default class IndexComponent extends React.Component {
   constructor(props) {
@@ -18,8 +19,8 @@ export default class IndexComponent extends React.Component {
             <MainHeading />
             <BackgroundVideo />
           </Col>
-          <Col className="dd" sm="12">
-            <ForestFire />
+          <Col sm="12">
+            <Projects />
           </Col>
           <footer>
           </footer>

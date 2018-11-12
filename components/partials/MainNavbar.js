@@ -71,6 +71,7 @@ import { Collapse,
               border-radius: .25rem;
               margin: 0 0.25em;
               text-align: center;
+              font-size: 1.5em;
             }
             .navbar .navbar-nav .nav-link:not(.disabled):hover,
             .navbar .navbar-nav .nav-link:not(.disabled):focus {
