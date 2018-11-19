@@ -2,10 +2,11 @@ import React from 'react';
 
 const centerDiv = {
   position: 'absolute',
-  "zIndex": '1',
+  zIndex: '1',
   top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)'
+  transform: 'translate(0, -50%)',
+  textAlign: 'center',
+  width: '100%'
 };
 
 export default class MainHeading extends React.Component {
