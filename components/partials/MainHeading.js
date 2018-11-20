@@ -18,13 +18,13 @@ export default class MainHeading extends React.Component {
     return (
       <div style={centerDiv}>
         <h1>Web Developer</h1>
-        <h2>Josh Gorman</h2>
+        <p>Josh Gorman</p>
         <style jsx>{`
           h1 {
             color: white;
             font-size: 4em;
           }
-          h2 {
+          p {
             color: white;
             font-size: 2em;
           }

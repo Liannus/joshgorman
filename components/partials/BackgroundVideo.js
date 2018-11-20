@@ -9,7 +9,7 @@ export default class backgroundVideo extends React.Component {
   render() {
     return (
       <>
-        <video id="my-video" fluid loop muted autoPlay preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+        <video id="my-video" loop muted autoPlay preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
             <source src="/static/Timelapse.mp4" type='video/mp4'></source>
             /*<source src="/Liannus.github.io2/static/Timelapse.mp4" type='video/mp4'></source>*/
             <p className="vjs-no-js">
