@@ -15,6 +15,9 @@ const Projects = (props) => {
         <div className="col-md-6">
           <ProjectCard imgSide="left"/>
         </div>
+        <div className="col-md-6">
+          <ProjectCard imgSide="right"/>
+        </div>
       </div>
     </>
   );
