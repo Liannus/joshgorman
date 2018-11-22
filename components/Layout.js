@@ -7,7 +7,7 @@ import '../style.css'
 const Layout = (props) => (
 	<div>
 		<Header />
-		<div className="Container" style={{"overflow": "hidden"}}>
+		<div style={{"overflow": "hidden"}}>
 			<MainNavbar />
 			{props.children}
 		</div>

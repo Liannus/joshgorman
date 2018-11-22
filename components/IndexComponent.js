@@ -16,11 +16,12 @@ export default class IndexComponent extends React.Component {
   render() {
     return (
       <div>
-        <Row>
+        <Row style={{backgroundColor: "#2B343A"}}>
           <Col className="dd" sm="12">
             <MainHeading />
             <BackgroundVideo />
           </Col>
+          <div className = "container">
           <Col sm="12">
             <About />
           </Col>
@@ -33,6 +34,7 @@ export default class IndexComponent extends React.Component {
           <footer>
             <Footer />
           </footer>
+          </div>
         </Row>
       </div>
     );
