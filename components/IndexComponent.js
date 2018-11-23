@@ -7,6 +7,7 @@ import Projects from './Projects.js'
 import About from './About.js'
 import Experience from './Experience.js'
 import Footer from './Footer.js'
+import Education from './Education.js'
 
 export default class IndexComponent extends React.Component {
   constructor(props) {
@@ -21,21 +22,44 @@ export default class IndexComponent extends React.Component {
             <MainHeading />
             <BackgroundVideo />
           </Col>
-          <div className = "container">
-          <Col sm="12">
-            <About />
-          </Col>
-          <Col sm="12">
-            <Projects />
-          </Col>
-          <Col sm="12">
-            <Experience />
-          </Col>
-          <footer>
-            <Footer />
-          </footer>
+          <div id="AboutMe" className="col-sm-12">
+            <div className="container">
+              <About />
+            </div>
           </div>
+          <div id="Portfolio" className="col-sm-12">
+            <div className="container">
+              <Projects />
+            </div>
+          </div>
+          <div id="Education" className="col-sm-12">
+            <div className="container">
+              <Education />
+            </div>
+          </div>
+          <div id="Experience" className="col-sm-12">
+            <div className="container">
+              <Experience />
+            </div>
+          </div>
+          <footer id="Footer" className="col-sm-12">
+            <div className="container">
+              <Footer />
+            </div>
+          </footer>
         </Row>
+        <style jsx>{`
+          .container {
+            padding: 0px;
+          }
+          #AboutMe, #Education, #Footer {
+              background-color: #242B30;
+              padding: 100px 15px;
+          }
+          #Portfolio {
+              padding: 50px 0px;
+          }
+        `}</style>
       </div>
     );
   }

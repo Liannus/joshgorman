@@ -3,7 +3,7 @@ import ProjectCard from './partials/ProjectCard.js'
 
 const Projects = (props) => {
   return (
-    <>
+    <div>
       <h2> PROJECTS </h2>
       <div className="row">
         <div className="col-md-6">
@@ -19,7 +19,13 @@ const Projects = (props) => {
           <ProjectCard imgSide="right"/>
         </div>
       </div>
-    </>
+      <style jsx> {`
+        h2 {
+            text-align: center;
+            color: #fcfaf9;
+        }
+      `}</style>
+    </div>
   );
 };
 

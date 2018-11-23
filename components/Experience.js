@@ -101,7 +101,6 @@ export default class Experience extends React.Component {
           }
 
           .cd-container {
-            max-width: 1080px;
             margin: 0 auto;
             background: #2B343A;
             padding: 0 10%;

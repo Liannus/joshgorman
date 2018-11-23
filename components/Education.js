@@ -1,6 +1,6 @@
 import react from 'react';
 
-export default class About extends React.Component {
+export default class Education extends React.Component {
   constructor(props) {
     super(props);
   }

@@ -24,7 +24,7 @@ import { Collapse,
 
     render() {
       return (
-        <div className = "container">
+        <div>
           <Navbar expand="sm">
             <button type="button" className={`navbar-toggle mr-2 ${this.state.collapsed}`} onClick={this.toggleNavbar}>
               <span className="icon-bar"></span>
