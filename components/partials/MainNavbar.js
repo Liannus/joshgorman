@@ -34,18 +34,24 @@ import { Collapse,
             <Collapse id="navbar-collapse" className="justify-content-right dark" isOpen={!this.state.collapsed} navbar>
               <Nav navbar>
                 <NavItem>
-                  <NavLink href="/components/">Components</NavLink>
+                  <NavLink href="#AboutMe">ABOUT</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                  <NavLink href="#Portfolio">PORTFOLIO</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">Resume</NavLink>
+                  <NavLink href="#Education">EDUCATION</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#Experience">EXPERIENCE</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
           <style jsx global>{`
+            html {
+                scroll-behavior: smooth;
+            }
             .navbar-toggle {
             	border: none;
             	background: transparent !important;
