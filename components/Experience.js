@@ -1,4 +1,5 @@
 import React from 'react';
+import ExperienceCard from './partials/ExperienceCard.js'
 
 export default class Experience extends React.Component {
   constructor(props) {
@@ -10,32 +11,8 @@ export default class Experience extends React.Component {
       <>
       <div>
       <section id="cd-timeline" className="cd-container">
-      		<div className="cd-timeline-block">
-      			<div className="cd-timeline-img cd-picture">
-      			</div>
 
-      			<div className="cd-timeline-content">
-      				<h2>Penta Consulting</h2>
-              <div className="timeline-content-info">
-                <span className="timeline-content-info-title">
-                  <i className="fa fa-certificate" aria-hidden="true"></i>
-                  Front End Developer
-                </span>
-                <span className="timeline-content-info-date">
-                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  June 2016 - Present
-                </span>
-              </div>
-      				<p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-              <ul className="content-skills">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>Wordpress</li>
-              </ul>
-      			</div>
-      		</div>
+        <ExperienceCard />
 
       		<div className="cd-timeline-block">
       			<div className="cd-timeline-img cd-movie">
