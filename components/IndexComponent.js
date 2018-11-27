@@ -52,9 +52,13 @@ export default class IndexComponent extends React.Component {
           .container {
             padding: 0px;
           }
-          #AboutMe, #Education, #Footer {
+          #AboutMe, #Education{
               background-color: #242B30;
               padding: 100px 15px;
+          }
+          #Footer {
+              background-color: #242B30;
+              padding: 50px 15px;
           }
           #Portfolio {
               padding: 50px 0px;

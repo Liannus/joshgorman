@@ -8,15 +8,45 @@ export default class Footer extends React.Component {
   render() {
     return (
         <div>
-          <h2>This is me.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices euismod erat placerat fermentum. Pellentesque quis velit varius, dignissim risus vitae, rhoncus lacus. Vestibulum condimentum aliquet tincidunt. Nullam dolor ligula, lacinia sed aliquet at, molestie ut erat. Nam pharetra malesuada eleifend. Aenean lobortis dui varius tortor porttitor semper. Donec congue eros dui, rutrum consectetur nulla eleifend a.</p>
+          <ul>
+            <li><a href="#AboutMe">ABOUT</a></li>
+            <li><a href="#Portfolio">PORTFOLIO</a></li>
+            <li><a href="#Education">EDUCATION</a></li>
+            <li><a href="#Experience">EXPERIENCE</a></li>
+          </ul>
+          <p>@Copyright Josh Gorman - 2018</p>
+          <ul>
+            <a className="fab fa-github" href="https://github.com/Liannus"></a>
+            <a className="fab fa-linkedin-in" href="https://github.com/Liannus"></a>
+          </ul>
           <style jsx> {`
-            h2 {
+            ul {
+              display: flex;
+              justify-content: center;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            li {
+              padding: 15px;
+            }
+            .fab {
+              color: #ffffff4d;
+              text-align: center;
+              padding: 10px;
+              font-size: 30px;
+            }
+            a:hover {
+              color: #bcbcbc;
+            }
+            a {
               text-align: center;
               color: #fcfaf9;
+              list-style: none;
+              text-decoration: none;
             }
             p {
-              color: #fcfaf9;
+              color: #ffffff4d;
               text-align: center;
             }
           `}</style>

@@ -8,8 +8,8 @@ export default class Experience extends React.Component {
 
   render() {
     return (
-      <>
       <div>
+      <h2>Experience</h2>
       <section id="cd-timeline" className="cd-container">
 
         <ExperienceCard />
@@ -70,6 +70,11 @@ export default class Experience extends React.Component {
       		</div>
       	</section>
         <style jsx>{`
+          h2 {
+            text-align: center;
+            padding-top: 50px;
+            color: #fcfaf9;
+          }
           html, body {
             background-color: #222C32;
             height: 100%;
@@ -98,7 +103,6 @@ export default class Experience extends React.Component {
           #cd-timeline {
             position: relative;
             padding: 2em 0;
-            margin-top: 2em;
             margin-bottom: 2em;
           }
 
@@ -114,7 +118,6 @@ export default class Experience extends React.Component {
 
           @media only screen and (min-width: 1170px) {
             #cd-timeline {
-              margin-top: 3em;
               margin-bottom: 3em;
             }
 
@@ -332,7 +335,6 @@ export default class Experience extends React.Component {
           }
         `}</style>
         </div>
-      </>
     );
   }
 }

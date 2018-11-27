@@ -67,7 +67,7 @@ import { Collapse,
             	-webkit-transition: all 0.2s;
             	transition: all 0.2s;
               display: block;
-              background-color: red;
+              background-color: #fcfaf9;
               height: 2px;
               border-radius: 1px;
             }
@@ -117,7 +117,7 @@ import { Collapse,
             }
 
             .navbar .navbar-nav .nav-link {
-              color: white;
+              color: #fcfaf9;
               border-radius: .25rem;
               margin: 0 0.25em;
               text-align: center;
@@ -130,11 +130,14 @@ import { Collapse,
             }
             @media (min-width: 576px) {
               .navbar {
-                background-color: transparent;
+                background-color: transparent !important;
                 position: absolute !important;
                 width: 100%;
                 z-index: 1;
               }
+            }
+            .navbar {
+              background-color: #242B30;
             }
             /*
             @keyframes fadein {
@@ -150,7 +153,7 @@ import { Collapse,
               }
             }
             .navbar {
-              background-color: transparent;
+              background-color: #242B30;
               position: absolute;
               width: 100%;
               z-index: 1;
@@ -163,14 +166,14 @@ import { Collapse,
               background-color: #efefef;
             }
             .navbar .navbar-toggler .icon-bar {
-              background-color: red;
-              color: red;
+              background-color: #fcfaf9;
+              color: #fcfaf9;
             }
             .navbar .navbar-nav {
               background-color: transparent;
             }
             .navbar .navbar-nav .nav-link {
-              color: white;
+              color: #fcfaf9;
               border-radius: .25rem;
               margin: 0 0.25em;
               text-align: center;

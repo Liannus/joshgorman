@@ -8,7 +8,7 @@ export default class Education extends React.Component {
   render() {
     return (
         <div>
-          <h2>This is me.</h2>
+          <h2>Education</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices euismod erat placerat fermentum. Pellentesque quis velit varius, dignissim risus vitae, rhoncus lacus. Vestibulum condimentum aliquet tincidunt. Nullam dolor ligula, lacinia sed aliquet at, molestie ut erat. Nam pharetra malesuada eleifend. Aenean lobortis dui varius tortor porttitor semper. Donec congue eros dui, rutrum consectetur nulla eleifend a.</p>
           <style jsx> {`
             h2 {
