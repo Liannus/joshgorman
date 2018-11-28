@@ -29,6 +29,7 @@ export default class Footer extends React.Component {
             }
             li {
               padding: 15px;
+              font-weight: 700;
             }
             .fab {
               color: #ffffff4d;
@@ -47,6 +48,7 @@ export default class Footer extends React.Component {
             }
             p {
               color: #ffffff4d;
+              font-size: 1rem;
               text-align: center;
             }
           `}</style>

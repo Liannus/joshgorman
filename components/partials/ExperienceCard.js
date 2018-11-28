@@ -7,32 +7,63 @@ export default class ExperienceCard extends React.Component {
 
   render() {
     return (
-        <div>
-      		<div className="cd-timeline-block">
-      			<div className="cd-timeline-img cd-picture"></div>
-      			<div className="cd-timeline-content">
-      				<h2>Penta Consulting</h2>
-              <div className="timeline-content-info">
-                <span className="timeline-content-info-title">
-                  <i className="fa fa-certificate" aria-hidden="true"></i>
-                  Front End Developer
-                </span>
-                <span className="timeline-content-info-date">
-                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  June 2016 - Present
-                </span>
-              </div>
-      				<p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-              <ul className="content-skills">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>Wordpress</li>
-              </ul>
-      			</div>
-      		</div>
+    		<div className="cd-timeline-block">
+    			<div className="cd-timeline-img cd-picture"></div>
+    			<div className="cd-timeline-content">
+    				<h2>Penta Consulting</h2>
+            <div className="timeline-content-info">
+              <span className="timeline-content-info-title">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                Front End Developer
+              </span>
+              <span className="timeline-content-info-date">
+                <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                June 2016 - Present
+              </span>
+            </div>
+    				<p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+            <ul className="content-skills">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Wordpress</li>
+            </ul>
+    			</div>
           <style jsx> {`
+
+          .cd-timeline-block {
+            position: relative;
+            margin: 2em 0;
+          }
+
+          .cd-timeline-block:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          .cd-timeline-block:first-child {
+            margin-top: 0;
+          }
+
+          .cd-timeline-block:last-child {
+            margin-bottom: 0;
+          }
+
+          @media only screen and (min-width: 1170px) {
+            .cd-timeline-block {
+              margin: 4em 0;
+            }
+
+            .cd-timeline-block:first-child {
+              margin-top: 0;
+            }
+
+            .cd-timeline-block:last-child {
+              margin-bottom: 0;
+            }
+          }
           .cd-timeline-img {
             position: absolute;
             top: 8px;
@@ -53,7 +84,7 @@ export default class ExperienceCard extends React.Component {
               height: 30px;
               left: 50%;
               margin-left: -15px;
-              margin-top: 15px;
+              margin-top: 8px;
               /* Force Hardware Acceleration in WebKit */
               -webkit-transform: translateZ(0);
               -webkit-backface-visibility: hidden;

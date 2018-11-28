@@ -123,6 +123,8 @@ import { Collapse,
               text-align: center;
               font-size: 1em;
               z-index: -1;
+              font-weight: 700;
+              letter-spacing: 0.5px;
             }
             .navbar .navbar-nav .nav-link:not(.disabled):hover,
             .navbar .navbar-nav .nav-link:not(.disabled):focus {
@@ -139,63 +141,11 @@ import { Collapse,
             .navbar {
               background-color: #242B30;
             }
-            /*
-            @keyframes fadein {
-              from { opacity: 0; }
-              to   { opacity: 1; }
-            }
-            @media (min-width: 576px) {
-              .navbar {
-                background-color: transparent;
-                position: absolute;
-                width: 100%;
-                z-index: 1;
-              }
-            }
-            .navbar {
-              background-color: #242B30;
-              position: absolute;
-              width: 100%;
-              z-index: 1;
-            }
-            .navbar .navbar-toggler {
-                background-color: transparent;
-            }
-            .navbar-toggler:hover {
-              color: red;
-              background-color: #efefef;
-            }
-            .navbar .navbar-toggler .icon-bar {
-              background-color: #fcfaf9;
-              color: #fcfaf9;
-            }
-            .navbar .navbar-nav {
-              background-color: transparent;
-            }
-            .navbar .navbar-nav .nav-link {
-              color: #fcfaf9;
-              border-radius: .25rem;
-              margin: 0 0.25em;
-              text-align: center;
-              font-size: 1.5em;
-            }
-            .navbar .navbar-nav .nav-link:not(.disabled):hover,
-            .navbar .navbar-nav .nav-link:not(.disabled):focus {
-              color: #bcbcbc;
-            }
-            */
             @media (min-width: 576px) {
               .navbar .navbar-toggle {
                 display: none;
               }
             }
-            /*
-            @media (min-width: 576px) {
-              .navbar .navbar-nav .nav-link {
-                animation: fadein 1s;
-              }
-            }
-            */
           `}</style>
         </div>
       );
