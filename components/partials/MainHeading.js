@@ -20,14 +20,22 @@ export default class MainHeading extends React.Component {
         <h1>Web Developer</h1>
         <h2>Josh Gorman</h2>
         <style jsx>{`
+          @media (min-width: 576px) {
+            h1 {
+              font-size: 4em !important;
+            }
+            h2 {
+              font-size: 2em !important;
+            }
+          }
           h1 {
             color: white;
-            font-size: 4em;
+            font-size: 3em;
             font-weight: 700;
           }
           h2 {
             color: white;
-            font-size: 2em;
+            font-size: 1.5em;
           }
         `}</style>
       </div>
