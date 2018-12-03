@@ -4,28 +4,28 @@ import ProjectCard from './partials/ProjectCard.js'
 const cards = [
       {
         projectTitle: "Forest Fire",
-        subTitle: 1,
+        subTitle: "React, NPM and Webpack",
         content: 1,
         link: 1,
         imgSide: "left"
       },
       {
         projectTitle: "Recipe Repo",
-        subTitle: 1,
+        subTitle: "NodeJS, MongoDB, Express and Pug",
         content: 1,
         link: 1,
         imgSide: "right"
       },
       {
         projectTitle: "Warframe Tracker",
-        subTitle: 1,
+        subTitle: "Electron, Redux and Jest",
         content: 1,
         link: 1,
         imgSide: "left"
       },
       {
         projectTitle: "Path of Tools",
-        subTitle: 1,
+        subTitle: "?",
         content: 1,
         link: 1,
         imgSide: "right"

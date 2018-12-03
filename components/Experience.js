@@ -7,18 +7,18 @@ export default class Experience extends React.Component {
 
     this.cards = [
           {
-            jobName: "Red-D-Arc",
-            jobTitle: "hi",
+            jobName: "Canadian Food Inspection Agency",
+            jobTitle: "Web Developer Student",
             content: "hi",
             date: "hi",
-            skills: []
+            skills: ["Javascript", "AEM", "Python", "XML", "PDF-XFA"]
           },
           {
-            jobName: "Canadian Food Inspection Agency",
-            jobtitle: 1,
+            jobName: "Red-D-Arc",
+            jobtitle: "Junior Business Analyst",
             content: 1,
             date: 1,
-            skills: ["CSS"]
+            skills: []
           }
       ];
   }

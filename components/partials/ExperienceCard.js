@@ -27,7 +27,7 @@ export default class ExperienceCard extends React.Component {
               return (
                 <li key={skill}>{skill}</li>
               );
-            })};
+            })}
             </ul>
     			</div>
           <style jsx> {`
