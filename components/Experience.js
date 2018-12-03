@@ -6,14 +6,21 @@ export default class Experience extends React.Component {
     super(props);
 
     this.cards = [
-        {
-          jobName: 1,
-          jobTitle: 1,
-          date: 1,
-          content: 1,
-          skills: []
-        },
-    ];
+          {
+            jobName: "Red-D-Arc",
+            jobTitle: "hi",
+            content: "hi",
+            date: "hi",
+            skills: []
+          },
+          {
+            jobName: "Canadian Food Inspection Agency",
+            jobtitle: 1,
+            content: 1,
+            date: 1,
+            skills: ["CSS"]
+          }
+      ];
   }
 
   render() {
@@ -21,9 +28,16 @@ export default class Experience extends React.Component {
       <div>
         <h2>Experience</h2>
         <section id="cd-timeline" className="cd-container">
-          <ExperienceCard />
-          <ExperienceCard />
-          <ExperienceCard />
+        {this.cards.map(i=> {
+          return(
+            <ExperienceCard key={i.jobName}
+                         jobName={i.jobName}
+                         jobtitle={i.jobtitle}
+                         content={i.content}
+                         date={i.date}
+                         skills={i.skills}/>
+          );
+        })}
       	</section>
         <style jsx>{`
           h2 {
@@ -84,7 +98,7 @@ export default class Experience extends React.Component {
           }
 
         `}</style>
-        </div>
+      </div>
     );
   }
 }
