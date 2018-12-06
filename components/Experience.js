@@ -9,16 +9,16 @@ export default class Experience extends React.Component {
           {
             jobName: "Canadian Food Inspection Agency",
             jobTitle: "Web Developer Student",
-            content: "hi",
-            date: "hi",
+            content: "",
+            date: "April 2018 - December 2018",
             skills: ["Javascript", "AEM", "Python", "XML", "PDF-XFA"]
           },
           {
             jobName: "Red-D-Arc",
             jobtitle: "Junior Business Analyst",
-            content: 1,
-            date: 1,
-            skills: []
+            content: "",
+            date: "July 2015 - August 2015",
+            skills: ["Software Quality Assurance", "Microsoft Dynamics NAV"]
           }
       ];
   }
