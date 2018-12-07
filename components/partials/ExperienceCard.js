@@ -3,6 +3,7 @@ import React from 'react';
 export default class ExperienceCard extends React.Component {
   constructor(props) {
     super(props);
+    this.x = 0;
   }
 
   render() {
@@ -21,7 +22,14 @@ export default class ExperienceCard extends React.Component {
                 {this.props.date}
               </span>
             </div>
-    				<p>{this.props.content}</p>
+            <ul className="content-text">
+            {this.props.content.split('\n').map(content => {
+              this.x++;
+              return (
+                <li key={this.x}>{content}</li>
+              );
+            })}
+            </ul>
             <ul className="content-skills">
             {this.props.skills.map(skill => {
               return (
@@ -137,6 +145,9 @@ export default class ExperienceCard extends React.Component {
             text-align: center;
             flex-grow: 1;
           }
+          .cd-timeline-content .content-skills {
+            padding: 0px;
+          }
 
           .cd-timeline-content:after {
             content: "";
@@ -150,7 +161,7 @@ export default class ExperienceCard extends React.Component {
             margin-bottom: 5px;
           }
 
-          .cd-timeline-content p, .cd-timeline-content .cd-date {
+          .cd-timeline-content .content-text li, .cd-timeline-content .cd-date {
             color: rgba(255, 255, 255, 0.7);
             font-size: 13px;
             font-size: 0.8125rem;
@@ -160,9 +171,12 @@ export default class ExperienceCard extends React.Component {
             display: inline-block;
           }
 
-          .cd-timeline-content p {
-            margin: 1em 0;
+          .cd-timeline-content .content-text li {
+            margin: 0.5em 0;
             line-height: 1.6;
+          }
+          .cd-timeline-content .content-text {
+            padding-left: 20px;
           }
 
           .cd-timeline-content::before {
@@ -182,7 +196,7 @@ export default class ExperienceCard extends React.Component {
               font-size: 1.25rem;
             }
 
-            .cd-timeline-content p {
+            .cd-timeline-content .content-text li {
               font-size: 16px;
               font-size: 1rem;
             }

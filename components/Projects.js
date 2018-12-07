@@ -5,14 +5,16 @@ const cards = [
       {
         projectTitle: "Forest Fire",
         subTitle: "React, NPM and Webpack",
-        content: 1,
+        content: `An application created as an introduction to React.js.
+        uses the HTML5 canvas to create a completely responsive animation.`,
         link: 1,
         imgSide: "left"
       },
       {
         projectTitle: "Recipe Repo",
         subTitle: "NodeJS, MongoDB, Express and Pug",
-        content: 1,
+        content: `A dynamic website which features CRUD functions allowing
+        users to sign-up, login and submit or edit their own recipes.`,
         link: 1,
         imgSide: "right"
       },

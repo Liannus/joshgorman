@@ -9,27 +9,21 @@ export default class Experience extends React.Component {
           {
             jobName: "Canadian Food Inspection Agency",
             jobTitle: "Web Developer Student",
-<<<<<<< HEAD
-            content: "hi",
-            date: "hi",
-=======
-            content: "",
+            content: `Developed a wiki in the Enterprise level content management system AEM, for current and future form developers a the CFIA.\n` +
+            `Developed SOAP web services using Java and Apache Tomcat. Received and manipulated data using JavaScript in PDF forms.\n` +
+            `Built scripts using Python and various libraries to eliminate menial processes and increase efficiency while developing forms.\n` +
+            `Created advanced functionality in PDF forms using JavaScript to allow dynamic formatting, date manipulation and digital signature certification`,
             date: "April 2018 - December 2018",
->>>>>>> df6576eff3d73a97b44ba01a601ca134a7eed6f6
             skills: ["Javascript", "AEM", "Python", "XML", "PDF-XFA"]
           },
           {
             jobName: "Red-D-Arc",
-            jobtitle: "Junior Business Analyst",
-<<<<<<< HEAD
-            content: 1,
-            date: 1,
-            skills: []
-=======
-            content: "",
+            jobTitle: "Junior Business Analyst",
+            content: `Provided QA testing for easing the deplyment of localized web services\n` +
+            `Tested and validated ERP software Microsoft Dynamics Nav.\n` +
+            `Collaborated with team mates to reduce re-printing of e-documents`,
             date: "July 2015 - August 2015",
             skills: ["Software Quality Assurance", "Microsoft Dynamics NAV"]
->>>>>>> df6576eff3d73a97b44ba01a601ca134a7eed6f6
           }
       ];
   }
@@ -43,7 +37,7 @@ export default class Experience extends React.Component {
           return(
             <ExperienceCard key={i.jobName}
                          jobName={i.jobName}
-                         jobtitle={i.jobtitle}
+                         jobTitle={i.jobTitle}
                          content={i.content}
                          date={i.date}
                          skills={i.skills}/>
