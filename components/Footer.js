@@ -20,6 +20,12 @@ export default class Footer extends React.Component {
             <a className="fab fa-linkedin-in" href="https://github.com/Liannus"></a>
           </ul>
           <style jsx> {`
+            @media (max-width: 576px) {
+              ul {
+                flex-direction: column;
+                text-align: center;
+              }
+            }
             ul {
               display: flex;
               justify-content: center;
