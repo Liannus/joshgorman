@@ -8,7 +8,8 @@ const cards = [
         content: `An application created as an introduction to React.js.
         uses the HTML5 canvas to create a completely responsive animation.`,
         link: 1,
-        imgSide: "left"
+        imgSide: "left",
+        status: "prod"
       },
       {
         projectTitle: "Recipe Repo",
@@ -16,21 +17,24 @@ const cards = [
         content: `A dynamic website which features CRUD functions allowing
         users to sign-up, login and submit or edit their own recipes.`,
         link: 1,
-        imgSide: "right"
+        imgSide: "right",
+        status: "dev"
       },
       {
         projectTitle: "Warframe Tracker",
         subTitle: "Electron, Redux and Jest",
         content: 1,
         link: 1,
-        imgSide: "left"
+        imgSide: "left",
+        status: "plan"
       },
       {
         projectTitle: "Path of Tools",
         subTitle: "?",
         content: 1,
         link: 1,
-        imgSide: "right"
+        imgSide: "right",
+        status: "plan"
       }
   ];
 const Projects = (props) => {

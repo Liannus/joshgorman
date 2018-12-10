@@ -197,8 +197,8 @@ export default class ExperienceCard extends React.Component {
             }
 
             .cd-timeline-content .content-text li {
-              font-size: 16px;
-              font-size: 1rem;
+              font-size: 14px;
+              font-size: 0.9rem;
             }
 
             .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {

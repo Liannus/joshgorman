@@ -9,7 +9,7 @@ export default class Experience extends React.Component {
           {
             jobName: "Canadian Food Inspection Agency",
             jobTitle: "Web Developer Student",
-            content: `Developed a wiki in the Enterprise level content management system AEM, for current and future form developers a the CFIA.\n` +
+            content: `Developed a wiki in the Enterprise level content management system AEM for current and future form developers at the CFIA.\n` +
             `Developed SOAP web services using Java and Apache Tomcat. Received and manipulated data using JavaScript in PDF forms.\n` +
             `Built scripts using Python and various libraries to eliminate menial processes and increase efficiency while developing forms.\n` +
             `Created advanced functionality in PDF forms using JavaScript to allow dynamic formatting, date manipulation and digital signature certification`,
