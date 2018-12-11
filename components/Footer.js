@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
   render() {
     return (
         <div>
-          <ul>
+          <ul id="links">
             <li><a href="#AboutMe">ABOUT</a></li>
             <li><a href="#Portfolio">PORTFOLIO</a></li>
             <li><a href="#Education">EDUCATION</a></li>
@@ -21,7 +21,7 @@ export default class Footer extends React.Component {
           </ul>
           <style jsx> {`
             @media (max-width: 576px) {
-              ul {
+              #links {
                 flex-direction: column;
                 text-align: center;
               }

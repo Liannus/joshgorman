@@ -17,7 +17,7 @@ export default class Experience extends React.Component {
             skills: ["Javascript", "AEM", "Python", "XML", "PDF-XFA"]
           },
           {
-            jobName: "Red-D-Arc",
+            jobName: "Red-D-Arc Welderentals",
             jobTitle: "Junior Business Analyst",
             content: `Provided QA testing for easing the deplyment of localized web services\n` +
             `Tested and validated ERP software Microsoft Dynamics Nav.\n` +

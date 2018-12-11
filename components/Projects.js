@@ -7,34 +7,36 @@ const cards = [
         subTitle: "React, NPM and Webpack",
         content: `An application created as an introduction to React.js.
         uses the HTML5 canvas to create a completely responsive animation.`,
-        link: 1,
+        link: "https://github.com/Liannus/Forest-Fire-Simulation",
         imgSide: "left",
-        status: "prod"
+        status: "Complete"
       },
       {
         projectTitle: "Recipe Repo",
-        subTitle: "NodeJS, MongoDB, Express and Pug",
+        subTitle: "NodeJS, MongoDB and Express",
         content: `A dynamic website which features CRUD functions allowing
         users to sign-up, login and submit or edit their own recipes.`,
         link: 1,
         imgSide: "right",
-        status: "dev"
+        status: "In Development"
       },
       {
         projectTitle: "Warframe Tracker",
-        subTitle: "Electron, Redux and Jest",
-        content: 1,
+        subTitle: "OpenCV, Electron, Redux and Jest",
+        content: `A desktop application using OpenCV to read from the screen
+        and Electron to display profile data.`,
         link: 1,
         imgSide: "left",
-        status: "plan"
+        status: "Planned"
       },
       {
         projectTitle: "Path of Tools",
-        subTitle: "?",
-        content: 1,
+        subTitle: "Python, Django, ?",
+        content: `A central repository containing recommendations, tools and
+        information relating to the game Path of Exile`,
         link: 1,
         imgSide: "right",
-        status: "plan"
+        status: "Planned"
       }
   ];
 const Projects = (props) => {
@@ -50,7 +52,9 @@ const Projects = (props) => {
                        subTitle={i.subTitle}
                        content={i.content}
                        link={i.link}
+                       status={i.status}
                        imgSide={i.imgSide}/>
+
         </div>
         );
       })}
