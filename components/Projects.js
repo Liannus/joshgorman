@@ -9,7 +9,11 @@ const cards = [
         uses the HTML5 canvas to create a completely responsive animation.`,
         link: "https://github.com/Liannus/Forest-Fire-Simulation",
         imgSide: "left",
-        status: "Complete"
+        status: "Complete",
+        tooltip: {
+          placement: "top",
+          text: "top"
+        }
       },
       {
         projectTitle: "Recipe Repo",
@@ -18,7 +22,11 @@ const cards = [
         users to sign-up, login and submit or edit their own recipes.`,
         link: 1,
         imgSide: "right",
-        status: "In Development"
+        status: "In Development",
+        tooltip: {
+          placement: "top",
+          text: "top"
+        }
       },
       {
         projectTitle: "Warframe Tracker",
@@ -27,7 +35,11 @@ const cards = [
         and Electron to display profile data.`,
         link: 1,
         imgSide: "left",
-        status: "Planned"
+        status: "Planned",
+        tooltip: {
+          placement: "top",
+          text: "top"
+        }
       },
       {
         projectTitle: "Path of Tools",
@@ -36,7 +48,11 @@ const cards = [
         information relating to the game Path of Exile`,
         link: 1,
         imgSide: "right",
-        status: "Planned"
+        status: "Planned",
+        tooltip: {
+          placement: "top",
+          text: "top"
+        }
       }
   ];
 const Projects = (props) => {
@@ -53,6 +69,7 @@ const Projects = (props) => {
                        content={i.content}
                        link={i.link}
                        status={i.status}
+                       tooltip={i.tooltip}
                        imgSide={i.imgSide}/>
 
         </div>
