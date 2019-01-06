@@ -14,27 +14,39 @@ export default class ProjectCard extends React.Component {
     super(props);
   }
 
-  componentDidMount() {
-  }
+  componentDidMount() {}
   render() {
-    return (
-      <div>
-        <div className={this.props.imgSide + " card flex-md-row mb-4 shadow-sm h-md-250"}>
-          {this.props.imgSide=="left" && <img className="card-img flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{minWidth: "200px", minHeight: "250px"}} /> }
-          <div className={" card-body d-flex flex-column align-items-" + (this.props.imgSide=="left" ? "start" : "end")}>
-            <div className="alignHorizontal">
-              {this.props.imgSide=="right" && <button data-toggle="tooltip" data-placement="top" title={this.props.status} style={circleStyle} className={this.props.status + " text-primary card-text"}></button> }
-              <h3 className={"card-title d-inline-block mb-2 text-white"}>{this.props.projectTitle}</h3>
-              {this.props.imgSide=="left" && <button data-toggle="tooltip" data-placement="top" title={this.props.status} style={circleStyle} className={this.props.status + " text-primary card-text"}></button> }
-            </div>
-            <h4 className={"card-subtitle mb-1 text-muted small"}>{this.props.subTitle}</h4>
-            <p className={this.props.imgSide + "card-text mb-auto"}>{this.props.content}</p>
-            <button type="button" className="btn btn-outline-primary btn-sm">Project Link</button>
+    return (<div>
+      <div className={this.props.imgSide + " card flex-md-row mb-4 shadow-sm h-md-250"}>
+        {
+          this.props.imgSide == "left" && <img className="card-img flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{
+                minWidth: "200px",
+                minHeight: "250px"
+              }}/>
+        }
+        <div className={" card-body d-flex flex-column align-items-" + (
+            this.props.imgSide == "left"
+            ? "start"
+            : "end")}>
+          <div className="alignHorizontal">
+            {this.props.imgSide == "right" && <button data-toggle="tooltip" data-placement="top" title={this.props.status} style={circleStyle} className={this.props.status + " text-primary card-text"}></button>}
+            <h3 className={"card-title d-inline-block mb-2 text-white"}>{this.props.projectTitle}</h3>
+            {this.props.imgSide == "left" && <button data-toggle="tooltip" data-placement="top" title={this.props.status} style={circleStyle} className={this.props.status + " text-primary card-text"}></button>}
           </div>
-          {this.props.imgSide=="right" && <img className="card-img flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{minWidth: '200px', minHeight: '250px'}} /> }
+          <h4 className={"card-subtitle mb-1 text-muted small"}>{this.props.subTitle}</h4>
+          <p className={this.props.imgSide + "card-text mb-auto"}>{this.props.content}</p>
+          <button type="button" className="btn btn-outline-primary btn-sm">Project Link</button>
         </div>
-        <style jsx>{`
-          .Development {
+        {
+          this.props.imgSide == "right" && <img className="card-img flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{
+                minWidth: '200px',
+                minHeight: '250px'
+              }}/>
+        }
+      </div>
+      <style jsx="jsx">
+        {
+          ` .Development {
             background: #ffc107;
           }
           .Planned {
@@ -61,8 +73,8 @@ export default class ProjectCard extends React.Component {
           p {
             color: #fcfaf9;
           }
-        `}</style>
-      </div>
-    );
+           `;
+        }</style>
+    </div>);
   }
 };

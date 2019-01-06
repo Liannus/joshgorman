@@ -7,40 +7,39 @@ export default class ExperienceCard extends React.Component {
   }
 
   render() {
-    return (
-    		<div className="cd-timeline-block">
-    			<div className="cd-timeline-img cd-picture"></div>
-    			<div className="cd-timeline-content">
-    				<h2>{this.props.jobName}</h2>
-            <div className="timeline-content-info">
-              <span className="timeline-content-info-title">
-                <i className="fa fa-certificate" aria-hidden="true"></i>
-                {this.props.jobTitle}
-              </span>
-              <span className="timeline-content-info-date">
-                <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                {this.props.date}
-              </span>
-            </div>
-            <ul className="content-text">
-            {this.props.content.split('\n').map(content => {
+    return (<div className="cd-timeline-block">
+      <div className="cd-timeline-img cd-picture"></div>
+      <div className="cd-timeline-content">
+        <h2>{this.props.jobName}</h2>
+        <div className="timeline-content-info">
+          <span className="timeline-content-info-title">
+            <i className="fa fa-certificate" aria-hidden="true"></i>
+            {this.props.jobTitle}
+          </span>
+          <span className="timeline-content-info-date">
+            <i className="fa fa-calendar-o" aria-hidden="true"></i>
+            {this.props.date}
+          </span>
+        </div>
+        <ul className="content-text">
+          {
+            this.props.content.split('\n').map(content => {
               this.x++;
-              return (
-                <li key={this.x}>{content}</li>
-              );
-            })}
-            </ul>
-            <ul className="content-skills">
-            {this.props.skills.map(skill => {
-              return (
-                <li key={skill}>{skill}</li>
-              );
-            })}
-            </ul>
-    			</div>
-          <style jsx> {`
-
-          .cd-timeline-block {
+              return (<li key={this.x}>{content}</li>);
+            })
+          }
+        </ul>
+        <ul className="content-skills">
+          {
+            this.props.skills.map(skill => {
+              return (<li key={skill}>{skill}</li>);
+            })
+          }
+        </ul>
+      </div>
+      <style jsx="jsx">
+        {
+          ` .cd-timeline-block {
             position: relative;
             margin: 2em 0;
           }
@@ -117,12 +116,14 @@ export default class ExperienceCard extends React.Component {
           .cd-timeline-content .timeline-content-info i {
             margin-right: 5px;
           }
-          .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
+          .cd-timeline-content .timeline-content-info .timeline-content-info-date,
+          .cd-timeline-content .timeline-content-info .timeline-content-info-title {
             width: calc(50% - 2px);
             display: inline-block;
           }
           @media (max-width: 500px) {
-            .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
+            .cd-timeline-content .timeline-content-info .timeline-content-info-date,
+            .cd-timeline-content .timeline-content-info .timeline-content-info-title {
               display: block;
               width: 100%;
             }
@@ -146,7 +147,7 @@ export default class ExperienceCard extends React.Component {
             flex-grow: 1;
           }
           .cd-timeline-content .content-skills {
-            padding: 0px;
+            padding: 0;
           }
 
           .cd-timeline-content:after {
@@ -161,7 +162,8 @@ export default class ExperienceCard extends React.Component {
             margin-bottom: 5px;
           }
 
-          .cd-timeline-content .content-text li, .cd-timeline-content .cd-date {
+          .cd-timeline-content .cd-date,
+          .cd-timeline-content .content-text li {
             color: rgba(255, 255, 255, 0.7);
             font-size: 13px;
             font-size: 0.8125rem;
@@ -201,7 +203,8 @@ export default class ExperienceCard extends React.Component {
               font-size: 0.9rem;
             }
 
-            .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+            .cd-timeline-content .cd-date,
+            .cd-timeline-content .cd-read-more {
               font-size: 14px;
               font-size: 0.875rem;
             }
@@ -251,8 +254,9 @@ export default class ExperienceCard extends React.Component {
               left: auto;
               right: 122%;
               text-align: right;
-          `}</style>
-        </div>
+              `;
+            }</style>
+    </div>
     );
   }
 }

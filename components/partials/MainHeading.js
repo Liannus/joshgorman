@@ -15,12 +15,12 @@ export default class MainHeading extends React.Component {
   }
 
   render() {
-    return (
-      <div style={centerDiv}>
-        <h1>Web Developer</h1>
-        <h2>Josh Gorman</h2>
-        <style jsx>{`
-          @media (min-width: 576px) {
+    return (<div style={centerDiv}>
+      <h1>Web Developer</h1>
+      <h2>Josh Gorman</h2>
+      <style jsx="jsx">
+        {
+          ` @media (min-width: 576px) {
             h1 {
               font-size: 4em !important;
             }
@@ -37,8 +37,8 @@ export default class MainHeading extends React.Component {
             color: white;
             font-size: 1.5em;
           }
-        `}</style>
-      </div>
-    );
+           `;
+        }</style>
+    </div>);
   }
 }
