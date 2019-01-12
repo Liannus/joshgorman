@@ -32,10 +32,12 @@ export default class MainHeading extends React.Component {
             color: white;
             font-size: 3em;
             font-weight: 700;
+            text-shadow: 2px 2px 3px #444;
           }
           h2 {
             color: white;
             font-size: 1.5em;
+            text-shadow: 2px 2px 3px #444;
           }
            `
         }</style>

@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
       <p>@Copyright Josh Gorman - 2018</p>
       <ul>
         <a className="fab fa-github" href="https://github.com/Liannus"></a>
-        <a className="fab fa-linkedin-in" href="https://github.com/Liannus"></a>
+        <a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/josh-gorman/"></a>
       </ul>
       <style jsx="jsx">
         {

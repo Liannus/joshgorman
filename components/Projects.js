@@ -20,7 +20,7 @@ const cards = [
         subTitle: "NodeJS, MongoDB and Express",
         content: `A dynamic website which features CRUD functions allowing
         users to sign-up, login and submit or edit their own recipes.`,
-        link: 1,
+        link: "https://github.com/Liannus/Recipe-Repo",
         imgSide: "right",
         status: "In Development",
         tooltip: {
@@ -33,7 +33,7 @@ const cards = [
         subTitle: "OpenCV, Electron, Redux and Jest",
         content: `A desktop application using OpenCV to read from the screen
         and Electron to display profile data.`,
-        link: 1,
+        link: "https://github.com/Liannus/Warframe-Tracker",
         imgSide: "left",
         status: "Planned",
         tooltip: {
@@ -46,7 +46,7 @@ const cards = [
         subTitle: "Python, Django, ?",
         content: `A central repository containing recommendations, tools and
         information relating to the game Path of Exile`,
-        link: 1,
+        link: "https://github.com/Liannus/PathofTools",
         imgSide: "right",
         status: "Planned",
         tooltip: {

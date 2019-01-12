@@ -119,6 +119,7 @@ export default class MainNavbar extends React.Component {
           }
 
           .navbar .navbar-nav .nav-link {
+            text-shadow: 2px 2px 3px #444;
             color: #fcfaf9;
             border-radius: 0.25rem;
             margin: 0 0.25em;
