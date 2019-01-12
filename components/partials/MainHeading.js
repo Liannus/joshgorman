@@ -29,7 +29,7 @@ export default class MainHeading extends React.Component {
             }
           }
           h1 {
-            color: white;
+            color: red;
             text-shadow: 2px 2px 3px #444;
             font-size: 3em;
             font-weight: 700;
