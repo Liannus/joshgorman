@@ -6,24 +6,6 @@ export default class About extends React.Component {
   }
 
   render() {
-<<<<<<< HEAD
-    return (<div>
-      <h2>This is me.</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices euismod erat placerat fermentum. Pellentesque quis velit varius, dignissim risus vitae, rhoncus lacus. Vestibulum condimentum aliquet tincidunt. Nullam dolor ligula, lacinia sed aliquet at, molestie ut erat. Nam pharetra malesuada eleifend. Aenean lobortis dui varius tortor porttitor semper. Donec congue eros dui, rutrum consectetur nulla eleifend a.</p>
-      <style jsx="jsx">
-        {
-          ` h2 {
-            text-align: center;
-            color: #fcfaf9;
-          }
-          p {
-            color: #fcfaf9;
-            text-align: center;
-          }
-           `;
-        }</style>
-    </div>);
-=======
     return (
         <div>
           <h2>This is me</h2>
@@ -40,6 +22,5 @@ export default class About extends React.Component {
           `}</style>
         </div>
     );
->>>>>>> dee4366c311b95db3b8073bdbe6c6368897f859a
   }
 }
