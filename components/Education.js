@@ -1,5 +1,5 @@
 import react from 'react';
-import 'jquery';
+import { Button, Tooltip } from 'reactstrap';
 
 export default class Education extends React.Component {
   constructor(props) {
