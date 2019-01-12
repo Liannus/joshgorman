@@ -10,7 +10,7 @@ export default class backgroundVideo extends React.Component {
     return (
       <>
         <video id="my-video" loop muted autoPlay preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-            <source src="/static/Timelapse.mp4" type='video/mp4'></source>
+            <source src="static/Timelapse.mp4" type='video/mp4'></source>
           /*<source src="/Liannus.me/static/Timelapse.mp4" type='video/mp4'></source>*/
             <p className="vjs-no-js">
               To view this video please enable JavaScript, and consider upgrading to a web browser that
