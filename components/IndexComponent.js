@@ -66,7 +66,7 @@ export default class IndexComponent extends React.Component {
           #Portfolio {
             padding: 50px 0;
           }
-           `;
+           `
         }</style>
     </div>);
   }

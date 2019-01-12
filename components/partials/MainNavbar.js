@@ -148,7 +148,7 @@ export default class MainNavbar extends React.Component {
               display: none;
             }
           }
-           `;
+           `
         }</style>
     </div>);
   }

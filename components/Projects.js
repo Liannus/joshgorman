@@ -83,7 +83,7 @@ const Projects = (props) => {
           color: #fcfaf9;
           margin-bottom: 28px;
         }
-         `;
+         `
       }</style>
   </div>);
 };

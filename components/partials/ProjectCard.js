@@ -23,6 +23,7 @@ export default class ProjectCard extends React.Component {
   render() {
     return (
       <div>
+      <div>
         <div className={this.props.imgSide + " card flex-md-row mb-4 shadow-sm h-md-250"}>
           {this.props.imgSide=="left" && <img className="card-img flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{minWidth: "200px", minHeight: "250px"}} /> }
           <div className={" card-body d-flex flex-column align-items-" + (this.props.imgSide=="left" ? "start" : "end")}>
@@ -75,8 +76,9 @@ export default class ProjectCard extends React.Component {
           p {
             color: #fcfaf9;
           }
-           `;
-        }</style>
+           `
+        }
+      </style>
     </div>);
   }
 };

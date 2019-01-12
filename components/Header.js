@@ -17,6 +17,5 @@ const Header = () => (
 		</Head>
 	</>
 )
->>>>>>> dee4366c311b95db3b8073bdbe6c6368897f859a
 
 export default Header

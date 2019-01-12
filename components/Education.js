@@ -55,7 +55,7 @@ export default class Education extends React.Component {
             margin: 0;
             font-weight: 700;
           }
-           `;
+           `
         }</style>
     </div>);
   }

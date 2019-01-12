@@ -37,7 +37,7 @@ export default class MainHeading extends React.Component {
             color: white;
             font-size: 1.5em;
           }
-           `;
+           `
         }</style>
     </div>);
   }

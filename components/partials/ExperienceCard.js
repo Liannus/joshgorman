@@ -254,7 +254,7 @@ export default class ExperienceCard extends React.Component {
               left: auto;
               right: 122%;
               text-align: right;
-              `;
+              `
             }</style>
     </div>
     );

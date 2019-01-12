@@ -65,7 +65,7 @@ export default class Footer extends React.Component {
             font-size: 1rem;
             text-align: center;
           }
-          `;
+          `
         }</style>
     </div>);
   }

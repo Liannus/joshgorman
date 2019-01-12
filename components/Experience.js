@@ -91,7 +91,7 @@ export default class Experience extends React.Component {
               margin-left: -2px;
             }
           }
-           `;
+           `
         }</style>
     </div>);
   }
