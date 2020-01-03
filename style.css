@@ -1,6 +1,6 @@
 /* Stylesheet used to provide media query CSS to reactstrap compontents */
 * {
-  font-family: Open Sans, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .row {

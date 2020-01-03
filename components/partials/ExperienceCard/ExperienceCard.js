@@ -1,45 +1,41 @@
-import React from 'react';
+import React from "react";
 
-export default class ExperienceCard extends React.Component {
+class ExperienceCard extends React.Component {
   constructor(props) {
     super(props);
     this.x = 0;
   }
 
   render() {
-    return (<div className="cd-timeline-block">
-      <div className="cd-timeline-img cd-picture"></div>
-      <div className="cd-timeline-content">
-        <h2>{this.props.jobName}</h2>
-        <div className="timeline-content-info">
-          <span className="timeline-content-info-title">
-            <i className="fa fa-certificate" aria-hidden="true"></i>
-            {this.props.jobTitle}
-          </span>
-          <span className="timeline-content-info-date">
-            <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            {this.props.date}
-          </span>
-        </div>
-        <ul className="content-text">
-          {
-            this.props.content.split('\n').map(content => {
+    return (
+      <div className="cd-timeline-block">
+        <div className="cd-timeline-img cd-picture"></div>
+        <div className="cd-timeline-content">
+          <h2>{this.props.jobName}</h2>
+          <div className="timeline-content-info">
+            <span className="timeline-content-info-title">
+              <i className="fa fa-certificate" aria-hidden="true"></i>
+              {this.props.jobTitle}
+            </span>
+            <span className="timeline-content-info-date">
+              <i className="fa fa-calendar-o" aria-hidden="true"></i>
+              {this.props.date}
+            </span>
+          </div>
+          <ul className="content-text">
+            {this.props.content.split("\n").map(content => {
               this.x++;
-              return (<li key={this.x}>{content}</li>);
-            })
-          }
-        </ul>
-        <ul className="content-skills">
-          {
-            this.props.skills.map(skill => {
-              return (<li key={skill}>{skill}</li>);
-            })
-          }
-        </ul>
-      </div>
-      <style jsx="jsx">
-        {
-          ` .cd-timeline-block {
+              return <li key={this.x}>{content}</li>;
+            })}
+          </ul>
+          <ul className="content-skills">
+            {this.props.skills.map(skill => {
+              return <li key={skill}>{skill}</li>;
+            })}
+          </ul>
+        </div>
+        <style jsx="jsx">
+          {` .cd-timeline-block {
             position: relative;
             margin: 2em 0;
           }
@@ -254,9 +250,11 @@ export default class ExperienceCard extends React.Component {
               left: auto;
               right: 122%;
               text-align: right;
-              `
-            }</style>
-    </div>
+              `}
+        </style>
+      </div>
     );
   }
 }
+
+export default ExperienceCard;
