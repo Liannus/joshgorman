@@ -83,13 +83,16 @@ export default class IndexComponent extends React.Component {
             }
 
             .about-background {
-              background: center url("static/section-background.jpg");
+              background: url("static/section-background.jpg") center
+                center/cover;
             }
             .education-background {
-              background: bottom url("static/section-background2.jpg");
+              background: url("static/section-background2.jpg") bottom
+                center/cover;
             }
             .footer-background {
-              background: top url("static/section-background3.jpg");
+              background: url("static/section-background3.jpg") center
+                bottom/cover;
             }
 
             .container {
