@@ -59,14 +59,14 @@ const Skills = props => {
   return (
     <>
       <div className="skill-section">
-        <i class="icon devicon-amazonwebservices-original"></i>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-nodejs-plain"></i>
-        <i class="devicon-docker-plain"></i>
-        <i class="devicon-git-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-linux-plain"></i>
-        <i class="devicon-postgresql-plain"></i>
+        <i className="icon devicon-amazonwebservices-original"></i>
+        <i className="devicon-react-original"></i>
+        <i className="devicon-nodejs-plain"></i>
+        <i className="devicon-docker-plain"></i>
+        <i className="devicon-git-plain"></i>
+        <i className="devicon-javascript-plain"></i>
+        <i className="devicon-linux-plain"></i>
+        <i className="devicon-postgresql-plain"></i>
         <style jsx="jsx">
           {`
             .skill-section {

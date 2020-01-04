@@ -41,9 +41,9 @@ export default class MainNavbar extends React.Component {
             id="navbar-collapse"
             className="justify-content-right dark"
             isOpen={!this.state.collapsed}
-            navbar="navbar"
+            navbar={true}
           >
-            <Nav navbar="navbar">
+            <Nav navbar={true}>
               <NavItem>
                 <NavLink href="#AboutMe">ABOUT</NavLink>
               </NavItem>
@@ -139,7 +139,7 @@ export default class MainNavbar extends React.Component {
               color: #fcfaf9;
               border-radius: 0.25rem;
               margin: 0 0.25em;
-              text-align: center;
+              text-acentercentercentercentercenterlign: center;
               font-size: 1.2em;
               z-index: -1;
               font-weight: 700;
