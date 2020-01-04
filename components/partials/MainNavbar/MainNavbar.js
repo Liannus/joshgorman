@@ -128,16 +128,22 @@ export default class MainNavbar extends React.Component {
               transform: rotate(0);
             }
 
+            .navbar-nav {
+              width: 100%;
+              display: flex;
+              justify-content: space-evenly;
+            }
+
             .navbar .navbar-nav .nav-link {
-              text-shadow: 2px 2px 3px #444;
+              text-shadow: 0px 0px 5px #555, 2px 2px 1px #555;
               color: #fcfaf9;
               border-radius: 0.25rem;
               margin: 0 0.25em;
               text-align: center;
-              font-size: 1em;
+              font-size: 1.2em;
               z-index: -1;
               font-weight: 700;
-              letter-spacing: 0.5px;
+              //letter-spacing: 0.5px;
             }
             .navbar .navbar-nav .nav-link:not(.disabled):focus,
             .navbar .navbar-nav .nav-link:not(.disabled):hover {
@@ -146,11 +152,6 @@ export default class MainNavbar extends React.Component {
             @media (min-width: 576px) {
               .navbar {
                 background-color: transparent !important;
-                background-image: linear-gradient(
-                  to bottom,
-                  rgba(180, 180, 180, 0.8) 30%,
-                  rgba(255, 0, 0, 0)
-                );
                 position: absolute !important;
                 width: 100%;
                 z-index: 1;

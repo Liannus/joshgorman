@@ -7,7 +7,7 @@ class AboutMe extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="about-section">
         <h2>This is me</h2>
         <p>
           Fourth year computer science student at Carleton University, obsessive
