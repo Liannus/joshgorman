@@ -30,7 +30,7 @@ class StatusTooltip extends React.Component {
     return (
       <span>
         <button
-          className={this.props.status}
+          className={"statustip " + this.props.status}
           title={this.props.status}
           style={circleStyle}
           id={"Tooltip-" + this.props.id}
@@ -45,6 +45,9 @@ class StatusTooltip extends React.Component {
         </Tooltip>
         <style jsx>
           {`
+          .statustip:hover {
+            opacity: 0.5;
+          }
           .Development {
             background: #ffc107;
           }

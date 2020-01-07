@@ -158,7 +158,7 @@ export default class MainNavbar extends React.Component {
               }
             }
             .navbar {
-              background-color: #242b30;
+              background-color: #2b343a;
             }
             @media (min-width: 576px) {
               .navbar .navbar-toggle {
