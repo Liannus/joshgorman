@@ -25,6 +25,7 @@ video {
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
+  bottom: 0;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
