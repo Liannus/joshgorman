@@ -124,8 +124,13 @@ class ProjectCard extends React.Component {
           p {
             color: #fcfaf9;
           }
-          .btn {
+          .align-items-start .btn {
             margin-top: 8px;
+            margin-right: 8px;
+          }
+          .align-items-end .btn {
+            margin-top: 8px;
+            margin-left: 8px;
           }
            `}
         </style>

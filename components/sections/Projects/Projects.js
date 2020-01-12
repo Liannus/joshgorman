@@ -4,7 +4,7 @@ import { ProjectCard } from "components/partials/";
 const cards = [
   {
     projectTitle: "Skillhub",
-    subTitle: "React, PostgreSQL and NodeJS",
+    subTitle: "React, PostgreSQL, GCP and NodeJS",
     content: `A web based social network capable of linking users by their
       skills and projects using machine learning and data analysis.`,
     gitLink: "https://github.com/CDH-Studio/skillhub",
@@ -16,12 +16,25 @@ const cards = [
     }
   },
   {
+    projectTitle: "Thompson Boiler Works",
+    subTitle: "AWS, React, SCSS and Node",
+    content: `A React based website built for Thompson Boiler Works to showcase services and projects.`,
+    gitLink: "https://github.com/ForkBombGIT/TBW-Website",
+    webLink: "https://ThompsonBoilerWorks.ca",
+    imgSide: "right",
+    status: "In Development",
+    tooltip: {
+      placement: "top",
+      text: "top"
+    }
+  },
+  {
     projectTitle: "Recipe Repo",
-    subTitle: "NodeJS, MongoDB and Express",
+    subTitle: "Django, React and PostgreSQL",
     content: `A dynamic website which features CRUD functions allowing
         users to sign-up, login and submit or edit their own recipes.`,
     gitLink: "https://github.com/Liannus/Recipe-Repo",
-    imgSide: "right",
+    imgSide: "left",
     status: "In Development",
     tooltip: {
       placement: "top",
@@ -30,24 +43,12 @@ const cards = [
   },
   {
     projectTitle: "Warframe Tracker",
-    subTitle: "OpenCV, Electron, Redux and Jest",
+    subTitle: "OpenCV, Electron, and Blueprint.js",
     content: `A desktop application using OpenCV to read from the screen
         and Electron to display profile data.`,
     gitLink: "https://github.com/Liannus/Warframe-Tracker",
-    imgSide: "left",
-    status: "Planned",
-    tooltip: {
-      placement: "top",
-      text: "top"
-    }
-  },
-  {
-    projectTitle: "Thompson Boiler Works",
-    subTitle: "AWS, React, SCSS",
-    content: `A React based website built for Thompson Boiler Works to showcase services and projects.`,
-    webLink: "https://ThompsonBoilerWorks.ca",
     imgSide: "right",
-    status: "In Development",
+    status: "Planned",
     tooltip: {
       placement: "top",
       text: "top"

@@ -19,7 +19,6 @@ export default class Education extends React.Component {
             <h4 className="card-title">
               Computer Science Honours: Software Engineering
             </h4>
-            <p>Minor in Business</p>
             <p>Co-op</p>
           </div>
         </div>

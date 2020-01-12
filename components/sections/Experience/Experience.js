@@ -10,6 +10,7 @@ export default class Experience extends React.Component {
         jobName: "Innovation Science and Economic Development Canada",
         jobTitle: "Full-Stack Developer",
         content:
+          `Developed a skills based social network with machine learning in a three person student team.\n` +
           `Followed Agile methodologies, taking part in sprint planning, daily standups and retrospectives.\n` +
           `Developed Mock-ups in Figma and agile artifacts to properly estimate the development processes goals.\n` +
           `Developed front-end views, backend connections and database integrations to control application flow.\n` +
