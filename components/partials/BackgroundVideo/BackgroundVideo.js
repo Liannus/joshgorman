@@ -15,7 +15,7 @@ class BackgroundVideo extends React.Component {
           muted
           autoPlay
           preload="auto"
-          poster="static/background.PNG"
+          poster="static/background.JPG"
           data-setup="{}"
         >
           <source src="static/Timelapse.mp4" type="video/mp4"></source>
